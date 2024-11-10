@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+header{
+    background-color: #3c003d;
+    padding: 1rem;
+    color:white;
+}
+
+header h1{
+    display:inline
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #3c003d;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer .soc-media{
+    margin-top: 10px
+}
+
+footer .soc-media a{
+    color: white;
+    margin: 0, 10px;
+    text-decoration: none;
+} 
+
+main{
+    padding: 20px;
+}
+.intro{
+    margin-bottom: 20px;
+}
+.products{
+    margin-bottom: 20px;
+}
+.reviews{
+    margin-bottom: 30px;
+}
+.submit-rev{
+    margin-bottom: 20px;
+}
+
+.prod-card{
+    background-color: white;
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0, 2px 4px rgb(0, 0, 0,0.1);
+}
+
+.prod-card h3{
+    font-size: 1.5rem;
+}
+
+.prod-card a{
+    background-color: #000000;
+    color: white;
+    padding: 0.5rem, 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.prod-card a:hover{
+    background-color: #3c003d;
+}
+
+.submit-rev for input{
+    width: 100%;
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px, soli,  #900000
+}
+
+.submit-rev form textarea{
+    width: 100%;
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px, soli,  #ccc
+
+}
+
+.submit-rev form button{
+    background-color:black;
+    color: white;
+    padding: 0.5rem , 1rem;
+    border-radius: 4px;
+}
+
+.submit-review from button:hover{
+    background-color: #005f;
+}
+
+
+.register-sec{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3c003d;
+}
+
+.register-sec form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    gap: 20px;
+}
+
+.register-sec form input{
+    height: 40px;
+    padding-left: 10px;
+}
+
+

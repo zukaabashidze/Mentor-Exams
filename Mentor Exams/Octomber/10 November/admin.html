@@ -1,0 +1,42 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="registration.html">Registration</a>
+            <a href="registration.html">Registration</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Currency Exchange (USD to EUR)</h2>
+        <label for="usdAmount">Amount in USD:</label>
+        <input type="number" id="usdAmount" placeholder="Enter USD Amount">
+        
+        <button onclick="convertCurrency()">Convert to EUR</button>
+
+        <p id="exchangeRateResult">1313123 USD = 1221204.39 EUR</p>
+    </main>
+
+    
+    <footer>
+        <p>Contact Us at: info@bank.com | Phone: +995 558 600 207</p>
+        <div class="soc-media">
+            <i class="fa-brands fa-facebook" onclick="location.href='https://www.facebook.com/profile.php?id=100069853353671'" aria-label="Facebook link"></i>
+            <i class="fa-brands fa-instagram" onclick="location.href='https://www.instagram.com/_abashidzeee_/'" aria-label="Instagram link"></i>
+            <i class="fa-brands fa-github" onclick="location.href='https://github.com/zukaabashidze'" aria-label="Github link"></i>
+        </div>
+    </footer>
+
+
+    <script src="admin.js"></script>
+
+</body></html>
