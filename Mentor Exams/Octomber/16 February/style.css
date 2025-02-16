@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    font-family: 'arial', 'san-serif';
+    color: black;
+}   
+
+.app {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: cetner;
+    box-shadow: 0 10 px 20 px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    margin: 20px;
+    font-size: 20 px;
+}
+
+.weather-data input{
+    display: flex;
+    margin-bottom: 20 px;
+}
+
+.weather-data button{
+    padding: 10px 20px;
+    background-color: #4facfe;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.forecast-item{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
