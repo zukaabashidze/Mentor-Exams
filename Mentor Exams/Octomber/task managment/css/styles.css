@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: #707373;
+    color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 30px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    color: #000000;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 30px;
+    border: 1px solid #efefef;
+    border-radius: 50px;
+}
+
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #eb2020;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 140px;
+}
+
+button[type="submit"]:hover {
+    background-color: #cb1b1b;
+}
+
+ul.task-list {
+    list-style-type: none;
+    padding: 0;
+    overflow-y: auto;
+    height: calc(100% - 120px);
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #efefef;
+    gap: 10px;
+}
+
+li.completed {
+    opacity: 0.5;
+    background: #bff6e7;
+}
+
+button.delete-task {
+    background-color: transparent;
+    color: #dc3545;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button.delete-task:hover {
+    color: #c82333;
+}
+
+footer p {
+    font-size: 12px;
+    color: #b8b8b8;
+}
+
+.empty-card {
+    color: #b8b8b8;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .todo-app {
+        height: 100vh;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    button[type="submit"] {
+        padding: 10px;
+    }
+}
